@@ -1,0 +1,974 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Byju's",
+      "industry": "Education",
+      "location": "Bangalore",
+      "employees": 5000,
+      "revenue": "$1.2B",
+      "founded": 2011,
+      "description": "India's leading online learning platform for K-12 and competitive exams"
+    },
+    {
+      "id": 2,
+      "name": "FrontlineEductech",
+      "industry": "Education",
+      "location": "Hyderabad",
+      "employees": 1500,
+      "revenue": "$250M",
+      "founded": 2015,
+      "description": "Leading EdTech platform providing comprehensive digital learning solutions for schools and colleges across India with AI-powered personalization"
+    },
+    {
+      "id": 3,
+      "name": "Unacademy",
+      "industry": "Education",
+      "location": "Bangalore",
+      "employees": 3500,
+      "revenue": "$900M",
+      "founded": 2015,
+      "description": "Online learning platform for competitive exams and personalized courses"
+    },
+    {
+      "id": 4,
+      "name": "Vedantu",
+      "industry": "Education",
+      "location": "Bangalore",
+      "employees": 2000,
+      "revenue": "$500M",
+      "founded": 2014,
+      "description": "Live online tutoring platform for students across India"
+    },
+    {
+      "id": 5,
+      "name": "Toppr Education",
+      "industry": "Education",
+      "location": "Hyderabad",
+      "employees": 1200,
+      "revenue": "$300M",
+      "founded": 2013,
+      "description": "AI-powered personalized learning platform for K-12 students"
+    },
+    {
+      "id": 6,
+      "name": "Doubtnut",
+      "industry": "Education",
+      "location": "Delhi",
+      "employees": 1500,
+      "revenue": "$400M",
+      "founded": 2016,
+      "description": "Doubt solving app for students with instant video solutions"
+    },
+    {
+      "id": 7,
+      "name": "Extramarks",
+      "industry": "Education",
+      "location": "Hyderabad",
+      "employees": 1100,
+      "revenue": "$280M",
+      "founded": 2007,
+      "description": "Digital learning platform for K-12 with video lectures and practice tests"
+    },
+    {
+      "id": 8,
+      "name": "Simplilearn",
+      "industry": "Education",
+      "location": "Bangalore",
+      "employees": 2500,
+      "revenue": "$600M",
+      "founded": 2010,
+      "description": "Professional certification and online skills training platform"
+    },
+    {
+      "id": 9,
+      "name": "Coursera India",
+      "industry": "Education",
+      "location": "Bangalore",
+      "employees": 800,
+      "revenue": "$250M",
+      "founded": 2012,
+      "description": "University-level courses and professional certifications"
+    },
+    {
+      "id": 10,
+      "name": "Skillshare",
+      "industry": "Education",
+      "location": "Mumbai",
+      "employees": 600,
+      "revenue": "$180M",
+      "founded": 2014,
+      "description": "Creative skills and professional development courses"
+    },
+    {
+      "id": 11,
+      "name": "Testbook",
+      "industry": "Education",
+      "location": "Noida",
+      "employees": 900,
+      "revenue": "$200M",
+      "founded": 2014,
+      "description": "Online test preparation and competitive exam platform"
+    },
+    {
+      "id": 12,
+      "name": "Gradeup",
+      "industry": "Education",
+      "location": "Hyderabad",
+      "employees": 1100,
+      "revenue": "$280M",
+      "founded": 2015,
+      "description": "Competitive exam preparation with interactive study sessions"
+    },
+    {
+      "id": 13,
+      "name": "Khan Academy India",
+      "industry": "Education",
+      "location": "Bangalore",
+      "employees": 350,
+      "revenue": "$95M",
+      "founded": 2016,
+      "description": "Free educational videos and practice exercises for students"
+    },
+    {
+      "id": 14,
+      "name": "UpGrad",
+      "industry": "Education",
+      "location": "Mumbai",
+      "employees": 2200,
+      "revenue": "$550M",
+      "founded": 2015,
+      "description": "Professional development and online degree programs"
+    },
+    {
+      "id": 15,
+      "name": "Udemy India",
+      "industry": "Education",
+      "location": "Delhi",
+      "employees": 500,
+      "revenue": "$140M",
+      "founded": 2013,
+      "description": "Marketplace for online courses on various topics"
+    },
+    {
+      "id": 16,
+      "name": "LEAD School",
+      "industry": "Education",
+      "location": "Hyderabad",
+      "employees": 800,
+      "revenue": "$120M",
+      "founded": 2010,
+      "description": "Personalized education platform for schools"
+    },
+    {
+      "id": 17,
+      "name": "Whitehat Jr",
+      "industry": "Education",
+      "location": "Mumbai",
+      "employees": 2000,
+      "revenue": "$450M",
+      "founded": 2016,
+      "description": "Coding education platform for children"
+    },
+    {
+      "id": 18,
+      "name": "Infosys",
+      "industry": "Technology",
+      "location": "Bangalore",
+      "employees": 250000,
+      "revenue": "$16B",
+      "founded": 1981,
+      "description": "Global IT services and consulting company"
+    },
+    {
+      "id": 19,
+      "name": "TCS (Tata Consultancy Services)",
+      "industry": "Technology",
+      "location": "Mumbai",
+      "employees": 450000,
+      "revenue": "$25B",
+      "founded": 1968,
+      "description": "India's largest IT services company"
+    },
+    {
+      "id": 20,
+      "name": "Wipro",
+      "industry": "Technology",
+      "location": "Bangalore",
+      "employees": 220000,
+      "revenue": "$10B",
+      "founded": 1980,
+      "description": "Information technology and consulting services"
+    },
+    {
+      "id": 21,
+      "name": "HCL Technologies",
+      "industry": "Technology",
+      "location": "Noida",
+      "employees": 200000,
+      "revenue": "$9B",
+      "founded": 1976,
+      "description": "IT services, software, and hardware solutions"
+    },
+    {
+      "id": 22,
+      "name": "Tech Mahindra",
+      "industry": "Technology",
+      "location": "Pune",
+      "employees": 150000,
+      "revenue": "$5B",
+      "founded": 1986,
+      "description": "IT services and digital transformation solutions"
+    },
+    {
+      "id": 23,
+      "name": "Cognizant",
+      "industry": "Technology",
+      "location": "Bangalore",
+      "employees": 350000,
+      "revenue": "$18B",
+      "founded": 1994,
+      "description": "Global IT services and consulting provider"
+    },
+    {
+      "id": 24,
+      "name": "Mindtree",
+      "industry": "Technology",
+      "location": "Bangalore",
+      "employees": 25000,
+      "revenue": "$1.2B",
+      "founded": 1999,
+      "description": "Digital transformation and technology services"
+    },
+    {
+      "id": 25,
+      "name": "Zensar Technologies",
+      "industry": "Technology",
+      "location": "Pune",
+      "employees": 12000,
+      "revenue": "$400M",
+      "founded": 1991,
+      "description": "Software development and IT services"
+    },
+    {
+      "id": 26,
+      "name": "Mphasis",
+      "industry": "Technology",
+      "location": "Bangalore",
+      "employees": 35000,
+      "revenue": "$1B",
+      "founded": 2000,
+      "description": "IT services and software development"
+    },
+    {
+      "id": 27,
+      "name": "Persistent Systems",
+      "industry": "Technology",
+      "location": "Pune",
+      "employees": 16000,
+      "revenue": "$700M",
+      "founded": 1990,
+      "description": "Enterprise software and digital solutions"
+    },
+    {
+      "id": 28,
+      "name": "ITC Infotech",
+      "industry": "Technology",
+      "location": "Hyderabad",
+      "employees": 18000,
+      "revenue": "$800M",
+      "founded": 1996,
+      "description": "IT services and enterprise software solutions"
+    },
+    {
+      "id": 29,
+      "name": "UST",
+      "industry": "Technology",
+      "location": "Bangalore",
+      "employees": 28000,
+      "revenue": "$1.5B",
+      "founded": 1999,
+      "description": "Digital transformation and IT services"
+    },
+    {
+      "id": 30,
+      "name": "Cyient",
+      "industry": "Technology",
+      "location": "Hyderabad",
+      "employees": 16000,
+      "revenue": "$600M",
+      "founded": 1991,
+      "description": "IT services and engineering solutions"
+    },
+    {
+      "id": 31,
+      "name": "Hexaware Technologies",
+      "industry": "Technology",
+      "location": "Mumbai",
+      "employees": 20000,
+      "revenue": "$700M",
+      "founded": 1999,
+      "description": "IT services and digital technology"
+    },
+    {
+      "id": 32,
+      "name": "Infotech Enterprises",
+      "industry": "Technology",
+      "location": "Hyderabad",
+      "employees": 12000,
+      "revenue": "$450M",
+      "founded": 1997,
+      "description": "IT solutions and business process outsourcing"
+    },
+    {
+      "id": 33,
+      "name": "Kinfo Technologies",
+      "industry": "Technology",
+      "location": "Hyderabad",
+      "employees": 5000,
+      "revenue": "$200M",
+      "founded": 2001,
+      "description": "IT consulting and software development"
+    },
+    {
+      "id": 34,
+      "name": "HDFC Bank",
+      "industry": "Finance",
+      "location": "Mumbai",
+      "employees": 110000,
+      "revenue": "$8B",
+      "founded": 1994,
+      "description": "Leading private sector bank in India"
+    },
+    {
+      "id": 35,
+      "name": "ICICI Bank",
+      "industry": "Finance",
+      "location": "Mumbai",
+      "employees": 100000,
+      "revenue": "$7.5B",
+      "founded": 1994,
+      "description": "Major private bank offering banking and financial services"
+    },
+    {
+      "id": 36,
+      "name": "Axis Bank",
+      "industry": "Finance",
+      "location": "Mumbai",
+      "employees": 80000,
+      "revenue": "$6B",
+      "founded": 1994,
+      "description": "Private sector commercial bank"
+    },
+    {
+      "id": 37,
+      "name": "Kotak Mahindra Bank",
+      "industry": "Finance",
+      "location": "Mumbai",
+      "employees": 50000,
+      "revenue": "$3.5B",
+      "founded": 1985,
+      "description": "Financial services and banking solutions"
+    },
+    {
+      "id": 38,
+      "name": "IndusInd Bank",
+      "industry": "Finance",
+      "location": "Mumbai",
+      "employees": 40000,
+      "revenue": "$2.8B",
+      "founded": 1994,
+      "description": "Banking and financial services provider"
+    },
+    {
+      "id": 39,
+      "name": "SBI (State Bank of India)",
+      "industry": "Finance",
+      "location": "Mumbai",
+      "employees": 250000,
+      "revenue": "$15B",
+      "founded": 1955,
+      "description": "India's largest government-owned bank"
+    },
+    {
+      "id": 40,
+      "name": "HDFC Life",
+      "industry": "Finance",
+      "location": "Mumbai",
+      "employees": 25000,
+      "revenue": "$1.2B",
+      "founded": 2000,
+      "description": "Life insurance and wealth management solutions"
+    },
+    {
+      "id": 41,
+      "name": "ICICI Prudential",
+      "industry": "Finance",
+      "location": "Mumbai",
+      "employees": 20000,
+      "revenue": "$1B",
+      "founded": 2000,
+      "description": "Insurance and retirement solutions"
+    },
+    {
+      "id": 42,
+      "name": "Bajaj Finserv",
+      "industry": "Finance",
+      "location": "Pune",
+      "employees": 45000,
+      "revenue": "$3B",
+      "founded": 1987,
+      "description": "Financial services and insurance provider"
+    },
+    {
+      "id": 43,
+      "name": "Reliance Industries",
+      "industry": "Finance",
+      "location": "Mumbai",
+      "employees": 340000,
+      "revenue": "$80B",
+      "founded": 1957,
+      "description": "Energy and finance conglomerate"
+    },
+    {
+      "id": 44,
+      "name": "Hyderabad Securities",
+      "industry": "Finance",
+      "location": "Hyderabad",
+      "employees": 8000,
+      "revenue": "$400M",
+      "founded": 2005,
+      "description": "Investment banking and brokerage services"
+    },
+    {
+      "id": 45,
+      "name": "Andhra Bank",
+      "industry": "Finance",
+      "location": "Hyderabad",
+      "employees": 35000,
+      "revenue": "$1.5B",
+      "founded": 1923,
+      "description": "Regional bank providing banking services"
+    },
+    {
+      "id": 46,
+      "name": "Tata Steel",
+      "industry": "Manufacturing",
+      "location": "Mumbai",
+      "employees": 80000,
+      "revenue": "$25B",
+      "founded": 1907,
+      "description": "Steel and metallurgical products"
+    },
+    {
+      "id": 47,
+      "name": "Bajaj Auto",
+      "industry": "Manufacturing",
+      "location": "Pune",
+      "employees": 25000,
+      "revenue": "$3B",
+      "founded": 1945,
+      "description": "Two and three-wheeler manufacturer"
+    },
+    {
+      "id": 48,
+      "name": "Hero MotoCorp",
+      "industry": "Manufacturing",
+      "location": "New Delhi",
+      "employees": 35000,
+      "revenue": "$4.5B",
+      "founded": 1956,
+      "description": "World's largest two-wheeler manufacturer"
+    },
+    {
+      "id": 49,
+      "name": "Maruti Suzuki",
+      "industry": "Manufacturing",
+      "location": "New Delhi",
+      "employees": 30000,
+      "revenue": "$5B",
+      "founded": 1981,
+      "description": "Largest automobile manufacturer in India"
+    },
+    {
+      "id": 50,
+      "name": "Mahindra & Mahindra",
+      "industry": "Manufacturing",
+      "location": "Mumbai",
+      "employees": 240000,
+      "revenue": "$20B",
+      "founded": 1945,
+      "description": "Automotive and manufacturing conglomerate"
+    },
+    {
+      "id": 51,
+      "name": "Bharat Heavy Electricals",
+      "industry": "Manufacturing",
+      "location": "New Delhi",
+      "employees": 65000,
+      "revenue": "$3.5B",
+      "founded": 1956,
+      "description": "Heavy electrical equipment manufacturer"
+    },
+    {
+      "id": 52,
+      "name": "Larsen & Toubro",
+      "industry": "Manufacturing",
+      "location": "Mumbai",
+      "employees": 200000,
+      "revenue": "$20B",
+      "founded": 1938,
+      "description": "Construction, engineering, and manufacturing"
+    },
+    {
+      "id": 53,
+      "name": "Hyderabad Electrical Manufacturing",
+      "industry": "Manufacturing",
+      "location": "Hyderabad",
+      "employees": 15000,
+      "revenue": "$600M",
+      "founded": 1985,
+      "description": "Electrical and industrial equipment manufacturing"
+    },
+    {
+      "id": 54,
+      "name": "Bharat Electronics Limited",
+      "industry": "Manufacturing",
+      "location": "Hyderabad",
+      "employees": 28000,
+      "revenue": "$1.2B",
+      "founded": 1954,
+      "description": "Defence electronics and communications equipment"
+    },
+    {
+      "id": 55,
+      "name": "Hyderabad Polymer Industries",
+      "industry": "Manufacturing",
+      "location": "Hyderabad",
+      "employees": 9000,
+      "revenue": "$350M",
+      "founded": 1988,
+      "description": "Plastic and polymer products manufacturing"
+    },
+    {
+      "id": 56,
+      "name": "Indian Oil Corporation",
+      "industry": "Energy",
+      "location": "New Delhi",
+      "employees": 40000,
+      "revenue": "$60B",
+      "founded": 1964,
+      "description": "India's largest oil and gas company"
+    },
+    {
+      "id": 57,
+      "name": "NTPC Limited",
+      "industry": "Energy",
+      "location": "New Delhi",
+      "employees": 50000,
+      "revenue": "$15B",
+      "founded": 1975,
+      "description": "National Thermal Power Corporation"
+    },
+    {
+      "id": 58,
+      "name": "Power Grid Corporation",
+      "industry": "Energy",
+      "location": "New Delhi",
+      "employees": 32000,
+      "revenue": "$8B",
+      "founded": 1989,
+      "description": "Power transmission and distribution"
+    },
+    {
+      "id": 59,
+      "name": "Adani Group",
+      "industry": "Energy",
+      "location": "Ahmedabad",
+      "employees": 150000,
+      "revenue": "$50B",
+      "founded": 1988,
+      "description": "Infrastructure and energy conglomerate"
+    },
+    {
+      "id": 60,
+      "name": "Hindustan Petroleum",
+      "industry": "Energy",
+      "location": "Mumbai",
+      "employees": 25000,
+      "revenue": "$20B",
+      "founded": 1974,
+      "description": "Oil and petroleum products"
+    },
+    {
+      "id": 61,
+      "name": "Hyderabad Power Generation",
+      "industry": "Energy",
+      "location": "Hyderabad",
+      "employees": 12000,
+      "revenue": "$800M",
+      "founded": 1995,
+      "description": "Thermal power generation facility"
+    },
+    {
+      "id": 62,
+      "name": "Telangana Solar Solutions",
+      "industry": "Energy",
+      "location": "Hyderabad",
+      "employees": 8000,
+      "revenue": "$450M",
+      "founded": 2010,
+      "description": "Renewable energy and solar power solutions"
+    },
+    {
+      "id": 63,
+      "name": "Green Energy Systems Hyderabad",
+      "industry": "Energy",
+      "location": "Hyderabad",
+      "employees": 5000,
+      "revenue": "$300M",
+      "founded": 2012,
+      "description": "Clean energy and wind power technology"
+    },
+    {
+      "id": 64,
+      "name": "Reliance Jio",
+      "industry": "Telecommunications",
+      "location": "Mumbai",
+      "employees": 50000,
+      "revenue": "$12B",
+      "founded": 2016,
+      "description": "Leading telecommunications and digital services provider"
+    },
+    {
+      "id": 65,
+      "name": "Bharti Airtel",
+      "industry": "Telecommunications",
+      "location": "New Delhi",
+      "employees": 80000,
+      "revenue": "$16B",
+      "founded": 1995,
+      "description": "Largest private telecom operator in India"
+    },
+    {
+      "id": 66,
+      "name": "Vodafone Idea",
+      "industry": "Telecommunications",
+      "location": "Mumbai",
+      "employees": 40000,
+      "revenue": "$8B",
+      "founded": 2007,
+      "description": "Leading telecom service provider"
+    },
+    {
+      "id": 67,
+      "name": "BSNL",
+      "industry": "Telecommunications",
+      "location": "New Delhi",
+      "employees": 250000,
+      "revenue": "$7B",
+      "founded": 1975,
+      "description": "Bharat Sanchar Nigam Limited - government telecom"
+    },
+    {
+      "id": 68,
+      "name": "Tata Communications",
+      "industry": "Telecommunications",
+      "location": "Mumbai",
+      "employees": 35000,
+      "revenue": "$3.5B",
+      "founded": 1997,
+      "description": "Global telecommunications and IT services"
+    },
+    {
+      "id": 69,
+      "name": "Hyderabad Telecom Services",
+      "industry": "Telecommunications",
+      "location": "Hyderabad",
+      "employees": 10000,
+      "revenue": "$500M",
+      "founded": 2006,
+      "description": "Regional telecom infrastructure and services"
+    },
+    {
+      "id": 70,
+      "name": "Spectrum Communications",
+      "industry": "Telecommunications",
+      "location": "Hyderabad",
+      "employees": 6000,
+      "revenue": "$250M",
+      "founded": 2008,
+      "description": "Data and broadband services provider"
+    },
+    {
+      "id": 71,
+      "name": "ITC Limited",
+      "industry": "Consumer Goods",
+      "location": "Kolkata",
+      "employees": 35000,
+      "revenue": "$5B",
+      "founded": 1910,
+      "description": "FMCG, hotels, and agribusiness"
+    },
+    {
+      "id": 72,
+      "name": "Hindustan Unilever",
+      "industry": "Consumer Goods",
+      "location": "Mumbai",
+      "employees": 20000,
+      "revenue": "$6B",
+      "founded": 1933,
+      "description": "FMCG and consumer products leader"
+    },
+    {
+      "id": 73,
+      "name": "Nestlé India",
+      "industry": "Consumer Goods",
+      "location": "Mumbai",
+      "employees": 10000,
+      "revenue": "$2.5B",
+      "founded": 1959,
+      "description": "Food and beverages company"
+    },
+    {
+      "id": 74,
+      "name": "Dabur India",
+      "industry": "Consumer Goods",
+      "location": "Delhi",
+      "employees": 12000,
+      "revenue": "$1.8B",
+      "founded": 1884,
+      "description": "Ayurvedic and FMCG products"
+    },
+    {
+      "id": 75,
+      "name": "Britannia Industries",
+      "industry": "Consumer Goods",
+      "location": "Kolkata",
+      "employees": 8000,
+      "revenue": "$1.5B",
+      "founded": 1892,
+      "description": "Food products and biscuits manufacturer"
+    },
+    {
+      "id": 76,
+      "name": "Hyderabad Foods Limited",
+      "industry": "Consumer Goods",
+      "location": "Hyderabad",
+      "employees": 6000,
+      "revenue": "$400M",
+      "founded": 1995,
+      "description": "Food processing and FMCG products"
+    },
+    {
+      "id": 77,
+      "name": "Telangana Spices Company",
+      "industry": "Consumer Goods",
+      "location": "Hyderabad",
+      "employees": 4500,
+      "revenue": "$280M",
+      "founded": 2000,
+      "description": "Traditional spices and food products"
+    },
+    {
+      "id": 78,
+      "name": "Dr. Reddy's Laboratories",
+      "industry": "Healthcare",
+      "location": "Hyderabad",
+      "employees": 20000,
+      "revenue": "$3B",
+      "founded": 1984,
+      "description": "Pharmaceutical and API manufacturer"
+    },
+    {
+      "id": 79,
+      "name": "Sun Pharmaceutical",
+      "industry": "Healthcare",
+      "location": "Mumbai",
+      "employees": 50000,
+      "revenue": "$5B",
+      "founded": 1983,
+      "description": "Pharmaceutical company"
+    },
+    {
+      "id": 80,
+      "name": "Lupin Limited",
+      "industry": "Healthcare",
+      "location": "Mumbai",
+      "employees": 30000,
+      "revenue": "$2.8B",
+      "founded": 1968,
+      "description": "Generic pharmaceuticals manufacturer"
+    },
+    {
+      "id": 81,
+      "name": "Cipla Limited",
+      "industry": "Healthcare",
+      "location": "Mumbai",
+      "employees": 25000,
+      "revenue": "$2.5B",
+      "founded": 1935,
+      "description": "Pharmaceutical and healthcare products"
+    },
+    {
+      "id": 82,
+      "name": "Aurobindo Pharma",
+      "industry": "Healthcare",
+      "location": "Hyderabad",
+      "employees": 35000,
+      "revenue": "$3.5B",
+      "founded": 1986,
+      "description": "Pharmaceutical manufacturer"
+    },
+    {
+      "id": 83,
+      "name": "Crysta Pharmaceuticals",
+      "industry": "Healthcare",
+      "location": "Hyderabad",
+      "employees": 12000,
+      "revenue": "$800M",
+      "founded": 1998,
+      "description": "Pharmaceutical manufacturing and research"
+    },
+    {
+      "id": 84,
+      "name": "Hyderabad Biotech Solutions",
+      "industry": "Healthcare",
+      "location": "Hyderabad",
+      "employees": 8000,
+      "revenue": "$500M",
+      "founded": 2005,
+      "description": "Biotechnology and medical device manufacturing"
+    },
+    {
+      "id": 85,
+      "name": "Bajaj Electricals",
+      "industry": "Consumer Electronics",
+      "location": "Mumbai",
+      "employees": 12000,
+      "revenue": "$1.2B",
+      "founded": 1938,
+      "description": "Consumer electronics and lighting"
+    },
+    {
+      "id": 86,
+      "name": "Havells India",
+      "industry": "Consumer Electronics",
+      "location": "New Delhi",
+      "employees": 10000,
+      "revenue": "$1.5B",
+      "founded": 1956,
+      "description": "Electrical equipment and appliances"
+    },
+    {
+      "id": 87,
+      "name": "Philips India",
+      "industry": "Consumer Electronics",
+      "location": "Mumbai",
+      "employees": 5000,
+      "revenue": "$800M",
+      "founded": 1925,
+      "description": "Consumer electronics and lighting"
+    },
+    {
+      "id": 88,
+      "name": "Sony India",
+      "industry": "Consumer Electronics",
+      "location": "Mumbai",
+      "employees": 3000,
+      "revenue": "$600M",
+      "founded": 1995,
+      "description": "Consumer electronics and entertainment"
+    },
+    {
+      "id": 89,
+      "name": "LG Electronics India",
+      "industry": "Consumer Electronics",
+      "location": "Mumbai",
+      "employees": 4500,
+      "revenue": "$900M",
+      "founded": 1997,
+      "description": "Home appliances and consumer electronics"
+    },
+    {
+      "id": 90,
+      "name": "Hyderabad Electronics Manufacturing",
+      "industry": "Consumer Electronics",
+      "location": "Hyderabad",
+      "employees": 7000,
+      "revenue": "$420M",
+      "founded": 2002,
+      "description": "Consumer electronics and component assembly"
+    },
+    {
+      "id": 91,
+      "name": "Brand Hotel",
+      "industry": "Hospitality",
+      "location": "Gurugram",
+      "employees": 30000,
+      "revenue": "$2B",
+      "founded": 2012,
+      "description": "Online hotel booking and management"
+    },
+    {
+      "id": 92,
+      "name": "Taj Hotels",
+      "industry": "Hospitality",
+      "location": "Mumbai",
+      "employees": 35000,
+      "revenue": "$1.8B",
+      "founded": 1903,
+      "description": "Luxury hotel and hospitality chain"
+    },
+    {
+      "id": 93,
+      "name": "ITC Hotels",
+      "industry": "Hospitality",
+      "location": "Kolkata",
+      "employees": 20000,
+      "revenue": "$1B",
+      "founded": 1975,
+      "description": "Hotel management and hospitality services"
+    },
+    {
+      "id": 94,
+      "name": "Oberoi Hotels",
+      "industry": "Hospitality",
+      "location": "New Delhi",
+      "employees": 15000,
+      "revenue": "$800M",
+      "founded": 1934,
+      "description": "Luxury hotel and resort chain"
+    },
+    {
+      "id": 95,
+      "name": "Airbnb India",
+      "industry": "Hospitality",
+      "location": "Bangalore",
+      "employees": 2000,
+      "revenue": "$500M",
+      "founded": 2018,
+      "description": "Online homestays and accommodations"
+    },
+    {
+      "id": 96,
+      "name": "Hyderabad Grand Hotels",
+      "industry": "Hospitality",
+      "location": "Hyderabad",
+      "employees": 8000,
+      "revenue": "$600M",
+      "founded": 1998,
+      "description": "Luxury hotel chain and resort management"
+    },
+    {
+      "id": 97,
+      "name": "Telangana Hospitality Group",
+      "industry": "Hospitality",
+      "location": "Hyderabad",
+      "employees": 5000,
+      "revenue": "$350M",
+      "founded": 2005,
+      "description": "Budget and mid-range hotel operations"
+    }
+  ]
+}
