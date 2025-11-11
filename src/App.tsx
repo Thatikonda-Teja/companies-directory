@@ -34,26 +34,36 @@ function App() {
       {/* ===== Header (always visible) ===== */}
       <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-6">
-          <div className="flex items-center gap-3 flex-col sm:flex-row text-center sm:text-left">
-            <div className="p-1 bg-primary/10 rounded-lg">
-              <Building2 className="w-5 h-5 sm:w-4 h-4 text-primary" />
-            </div>
-            <div>
-              <h1 className="text-xl sm:text-2xl font-bold text-foreground">Companies Directory</h1>
-              <p className="text-xs sm:text-sm text-muted-foreground mt-1">
-                Explore {allCompanies.length} Indian companies across multiple industries
-              </p>
-            </div>
-          </div>
+         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+  {/* Left section */}
+  <div className="flex items-center gap-3 text-center sm:text-left">
+    <div className="p-1 bg-primary/10 rounded-lg">
+      <Building2 className="w-5 h-5 sm:w-4 h-4 text-primary" />
+    </div>
+    <div>
+      <h1 className="text-xl sm:text-2xl font-bold text-foreground">Companies Directory</h1>
+      <p className="text-xs sm:text-sm text-muted-foreground mt-1">
+        Explore {allCompanies.length} Indian companies across multiple industries
+      </p>
+    </div>
+  </div>
+
+  {/* Right section (Search bar) */}
+  <div className="w-full sm:w-80">
+    <SearchBar />
+  </div>
+</div>
+
+
         </div>
       </header>
 
       {/* ===== Sticky SearchBar under header ===== */}
-      <div className="bg-card border-b border-border sticky top-[4.5rem] z-20 px-4 sm:px-3 py-3">
+      {/* <div className="bg-card border-b border-border sticky top-[4.5rem] z-20 px-4 sm:px-3 py-3">
         <div className="max-w-7xl mx-auto">
           <SearchBar />
         </div>
-      </div>
+      </div> */}
 
       {/* ===== Main Scrollable Content ===== */}
       <div className="flex-1 overflow-hidden">
@@ -77,10 +87,9 @@ function App() {
                   <p className="text-xs sm:text-sm text-muted-foreground">Try adjusting your filters or search terms</p>
                 </div>
               ) : (
-                <div className="bg-card border border-border rounded-lg shadow-sm h-[calc(100vh-16rem)] overflow-hidden">
-                  {/* Table content scrolls inside */}
-                  <CompaniesTable />
-                </div>
+               <div className="bg-card border border-border rounded-lg shadow-sm h-[calc(100vh-10rem)] overflow-hidden">
+  <CompaniesTable />
+</div>
               )}
             </div>
           </div>

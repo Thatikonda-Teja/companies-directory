@@ -64,7 +64,7 @@ export function CompaniesTable() {
                     key={company.id}
                     className="border-b border-border hover:bg-primary/5 transition-colors duration-150"
                   >
-                    <td className="px-3 sm:px-4 py-2 sm:py-4 font-semibold text-primary text-xs sm:text-sm">
+                    <td className="px-3 sm:px-4 py-2 sm:py-4 font-semibold text-primary text-xs sm:text-sm ml-2">
                       {company.name}
                     </td>
                     <td className="px-3 sm:px-4 py-2 sm:py-4">
@@ -97,7 +97,7 @@ export function CompaniesTable() {
 
       {/* Pagination controls - fixed at bottom */}
       {totalPages > 1 && (
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 pt-4 px-4 sm:px-0">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 pt-4 px-1 sm:px-0">
           <button
             disabled={filters.currentPage === 1}
             onClick={() => dispatch(setCurrentPage(Math.max(1, filters.currentPage - 1)))}
