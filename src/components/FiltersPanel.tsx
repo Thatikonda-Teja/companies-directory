@@ -130,7 +130,7 @@ export function FiltersPanel() {
               </select>
             </div>
 
-            <div className="space-y-1 sm:space-y-2">
+            <div className="space-y-2 sm:space-y-3">
               <label className="text-xs sm:text-sm font-semibold text-foreground block">Location</label>
               <select
                 value={filters.selectedLocation}
