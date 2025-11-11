@@ -194,7 +194,7 @@ Features:
 
 Features:
 - useMemo for pagination calculation
-- 10 items per page
+- 5 items per page
 - Previous/Next navigation
 - Direct page number selection
 - Company count display
