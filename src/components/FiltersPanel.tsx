@@ -46,21 +46,19 @@ export function FiltersPanel() {
 
   return (
     <>
-      {/* Filter button - visible on all screen sizes */}
+      {/* Filter button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 flex items-center gap-2 px-4 py-3 bg-primary text-primary-foreground rounded-full shadow-lg hover:bg-primary/90 transition-all z-30 text-sm sm:text-base font-semibold"
       >
-        <ChevronDown className="w-4 h-4 sm:w-5 h-5" />
+        <ChevronDown className="w-4 h-4 sm:w-5 sm:h-5" />
         Filters
       </button>
 
       <div
-        className={`
-        fixed inset-0 z-40
-        transition-opacity duration-300 ease-in-out
-        ${isOpen ? "opacity-100" : "pointer-events-none opacity-0"}
-      `}
+        className={`fixed inset-0 z-40 transition-opacity duration-300 ease-in-out ${
+          isOpen ? "opacity-100" : "pointer-events-none opacity-0"
+        }`}
       >
         {/* Backdrop */}
         <div
@@ -71,13 +69,15 @@ export function FiltersPanel() {
         {/* Filter panel */}
         <div
           className={`
-            fixed left-0 top-0 bottom-0 w-72 sm:w-80 bg-card border-r border-border
+            fixed left-0 top-0 bottom-0 bg-card border-r border-border
             transform transition-transform duration-300 ease-in-out
             ${isOpen ? "translate-x-0" : "-translate-x-full"}
             overflow-y-auto z-50
+            w-full max-w-xs sm:max-w-sm
           `}
         >
           <div className="p-4 sm:p-6 space-y-4 sm:space-y-6">
+            {/* Header */}
             <div className="flex justify-between items-center">
               <h3 className="text-base sm:text-lg font-bold text-foreground">Filters</h3>
               <button
@@ -88,6 +88,7 @@ export function FiltersPanel() {
               </button>
             </div>
 
+            {/* Clear Filters */}
             {hasActiveFilters && (
               <button
                 onClick={handleClearFilters}
@@ -98,12 +99,13 @@ export function FiltersPanel() {
               </button>
             )}
 
+            {/* Company Name */}
             <div className="space-y-2 sm:space-y-3">
               <label className="text-xs sm:text-sm font-semibold text-foreground block">Company Name</label>
               <select
                 value={filters.selectedCompanyName}
                 onChange={(e) => dispatch(setSelectedCompanyName(e.target.value))}
-                className="w-full px-3 py-2 sm:py-3 rounded-lg border border-input bg-background text-foreground text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
+                className="w-full px-2 sm:px-3 py-2 sm:py-3 rounded-lg border border-input bg-background text-foreground text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
               >
                 <option value="">All Companies</option>
                 {companyNames.map((name) => (
@@ -114,28 +116,30 @@ export function FiltersPanel() {
               </select>
             </div>
 
+            {/* Industry */}
             <div className="space-y-2 sm:space-y-3">
               <label className="text-xs sm:text-sm font-semibold text-foreground block">Industry</label>
               <select
                 value={filters.selectedIndustry}
                 onChange={(e) => dispatch(setSelectedIndustry(e.target.value))}
-                className="w-full px-3 py-2 sm:py-3 rounded-lg border border-input bg-background text-foreground text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
+                className="w-full px-2 sm:px-3 py-2 sm:py-3 rounded-lg border border-input bg-background text-foreground text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
               >
                 <option value="">All Industries</option>
                 {industries.map((industry) => (
-                  <option key={industry} value={industry}>
+                  <option key={industry} value={industry} className="w-[70px]" >
                     {industry}
                   </option>
                 ))}
               </select>
             </div>
 
+            {/* Location */}
             <div className="space-y-2 sm:space-y-3">
               <label className="text-xs sm:text-sm font-semibold text-foreground block">Location</label>
               <select
                 value={filters.selectedLocation}
                 onChange={(e) => dispatch(setSelectedLocation(e.target.value))}
-                className="w-full px-3 py-2 sm:py-3 rounded-lg border border-input bg-background text-foreground text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
+                className="w-full px-2 sm:px-3 py-2 sm:py-3 rounded-lg border border-input bg-background text-foreground text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
               >
                 <option value="">All Locations</option>
                 {locations.map((location) => (
@@ -146,6 +150,7 @@ export function FiltersPanel() {
               </select>
             </div>
 
+            {/* Sort By */}
             <div className="space-y-2 sm:space-y-3 pt-4 sm:pt-6 border-t border-border">
               <label className="text-xs sm:text-sm font-semibold text-foreground block">Sort By</label>
               <select
@@ -153,7 +158,7 @@ export function FiltersPanel() {
                 onChange={(e) =>
                   dispatch(setSortBy(e.target.value as "name" | "location" | "employees" | "revenue" | "founded"))
                 }
-                className="w-full px-3 py-2 sm:py-3 rounded-lg border border-input bg-background text-foreground text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
+                className="w-full px-2 sm:px-3 py-2 sm:py-3 rounded-lg border border-input bg-background text-foreground text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
               >
                 <option value="name">Sort by Company Name</option>
                 <option value="location">Sort by Location</option>
@@ -186,6 +191,7 @@ export function FiltersPanel() {
               </div>
             </div>
 
+            {/* Active Filters */}
             <div className="pt-4 sm:pt-6 border-t border-border">
               <p className="text-xs text-muted-foreground line-clamp-3">
                 <span className="font-semibold block mb-1">Active Filters:</span>{" "}
